@@ -64,7 +64,7 @@ function App() {
           </Box>
           <Progress />
           <Notes>
-            https://www.nintendo.com/nes-classic/ https://en.wikipedia.org/wiki/Nintendo_Entertainment_System
+            Reference: https://www.nintendo.com/nes-classic/ https://en.wikipedia.org/wiki/Nintendo_Entertainment_System
           </Notes>
         </Slide>
         <Slide>
@@ -84,7 +84,7 @@ function App() {
           </Box>
           <Progress />
           <Notes>
-            https://store.steampowered.com/tags/en/Pixel+Graphics#p=0&tab=TopRated
+            Reference: https://store.steampowered.com/tags/en/Pixel+Graphics#p=0&tab=TopRated
             https://www.youtube.com/watch?v=jh7tCk5N4rk
             https://www.vice.com/en_us/article/bmdpyz/creativity-bytes-a-brief-guide-to-chiptune-music
           </Notes>
@@ -105,27 +105,27 @@ function App() {
             </Text>
           </Box>
           <Progress />
-          <Notes>https://cirrusretro.com/listen/159-super-mario-bros-nintendo-nes</Notes>
+          <Notes>Reference: https://cirrusretro.com/listen/159-super-mario-bros-nintendo-nes</Notes>
         </Slide>
         <Slide>
           <Box height="100%">
             <Heading fontSize="60px">Waveform(波形图)</Heading>
             <iframe
-              height="500"
+              height="460"
               style={{ width: '100%' }}
               scrolling="no"
               title="Web Audio API: waveforms"
-              src="https://codepen.io/gregh/embed/LxJEaj?height=265&theme-id=light&default-tab=result"
+              src="https://codepen.io/hellocreep/embed/RwWWmzX?height=265&theme-id=light&default-tab=result"
               frameBorder="no"
               allowFullScreen="true"
               loading="lazy"
             >
-              See the Pen <a href="https://codepen.io/gregh/pen/LxJEaj">Web Audio API: waveforms</a> by Greg Hovanesyan
-              (<a href="https://codepen.io/gregh">@gregh</a>) on <a href="https://codepen.io">CodePen</a>.
+              See the Pen <a href="https://codepen.io/hellocreep/pen/RwWWmzX">Web Audio API: waveforms</a> by liwen (
+              <a href="https://codepen.io/hellocreep">@hellocreep</a>) on <a href="https://codepen.io">CodePen</a>.
             </iframe>
           </Box>
           <Progress />
-          <Notes>https://codepen.io/gregh/pen/LxJEaj</Notes>
+          <Notes>Reference: https://codepen.io/hellocreep/pen/RwWWmzX</Notes>
         </Slide>
         <Slide>
           <Box height="100%">
@@ -153,7 +153,7 @@ function App() {
           </Box>
           <Progress />
           <Notes>
-            https://cirrusretro.com/listen/159-super-mario-bros-nintendo-nes
+            Reference: https://cirrusretro.com/listen/159-super-mario-bros-nintendo-nes
             https://cirrusretro.com/listen/27-castlevania-2-simons-quest-nintendo-nes
           </Notes>
         </Slide>
@@ -176,7 +176,9 @@ function App() {
             </FlexBox>
           </Box>
           <Progress />
-          <Notes>https://www.ableton.com/en/live/ http://famitracker.com/ https://www.apple.com/mac/garageband/</Notes>
+          <Notes>
+            Reference: https://www.ableton.com/en/live/ http://famitracker.com/ https://www.apple.com/mac/garageband/
+          </Notes>
         </Slide>
         <Slide>
           <Box height="100%">
@@ -184,10 +186,16 @@ function App() {
             <Text textAlign="center">可以播放声音</Text>
             <Text textAlign="center">可以制作指定频率的波形</Text>
             <Text textAlign="center">可以对声音添加效果</Text>
-            <Text textAlign="center">tone.js</Text>
+            <Text textAlign="center">
+              <Link href="https://tonejs.github.io" target="_blank">
+                tone.js
+              </Link>
+            </Text>
           </Box>
           <Progress />
-          <Notes>https://developer.mozilla.org/zh-CN/docs/Web/API/Web_Audio_API https://tonejs.github.io</Notes>
+          <Notes>
+            Reference: https://developer.mozilla.org/zh-CN/docs/Web/API/Web_Audio_API https://tonejs.github.io
+          </Notes>
         </Slide>
         <Slide>
           <Box height="100%">
@@ -205,7 +213,7 @@ function App() {
         <Slide>
           <Box height="100%">
             <Heading fontSize="60px" margin="20px 20px 100px 20px">
-              复杂一点的 Web Audio 使用
+              实际 Web Audio 使用
             </Heading>
             <Text textAlign="center">
               <Link fontSize="60px" href="https://js13kgames.com/#winners" target="_blank">
@@ -231,13 +239,14 @@ function App() {
             </Box>
           </Box>
           <Progress />
-          <Notes>https://sonic-pi.net/</Notes>
+          <Notes>Reference： https://sonic-pi.net/</Notes>
         </Slide>
         <Slide>
           <FlexBox height="100%" alignItems="center" justifyContent="center">
             <Heading>Thanks.</Heading>
           </FlexBox>
           <Notes>如果你对音乐感兴趣，可以顺便学习编程 如果你对编程感兴趣，可以顺便学习音乐</Notes>
+          <Notes>机核电台 https://www.gcores.com/radios/26610 纪录片 https://movie.douban.com/subject/25987095/</Notes>
         </Slide>
       </Deck>
     </div>
@@ -245,8 +254,3 @@ function App() {
 }
 
 export default App;
-
-// 机核电台
-// https://www.gcores.com/radios/26610
-// 纪录片
-// https://movie.douban.com/subject/25987095/
